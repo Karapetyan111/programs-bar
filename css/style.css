@@ -1,0 +1,444 @@
+
+ nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: rgba(255, 255, 255, 0.781);
+   text-decoration: none ;
+}
+a:hover{
+    color: white;
+}
+.h1h1{
+    margin: 6px 0 0px 250px;
+    color: rgba(255, 255, 255, 0.781);
+}
+.h1h1:hover{
+    color: white;
+}
+a::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    left: 0px;
+    top: 20px;
+    background-color: green;
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+}
+a:hover:before{
+    visibility: visible;
+    opacity: 1;
+}
+.ahome{
+    position: absolute;
+    left: 1000px;
+    bottom: 860px;
+}
+.aabout{
+    position: absolute;
+    left: 1080px;
+    bottom: 860px;
+}
+.acontact{
+    position: absolute;
+    left: 1150px;
+    bottom: 860px;
+}
+.h12{
+    margin: 150px 0 0 300px;
+}
+.p1{
+    margin: 10px 0 0 300px;
+}
+.divweb{
+    margin-left: 335px;
+}
+.imgtwiter1{
+    margin-left: 300px;
+    margin-top: 20px;
+    filter: grayscale(1);
+}
+.imgtwiter1:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.imgfacebook1{
+    filter: grayscale(1);
+}
+.imgfacebook1:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.imginstagram1{
+    filter: grayscale(1);
+}
+.imginstagram1:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.section1{
+    margin-left: 300px;
+}
+.green{
+    position: absolute;
+    bottom: 450px;
+    left: 350px;
+}
+.h2web{
+    margin-left: 260px;
+}
+.psince{
+    margin-left: 260px;
+}
+.divp1{
+    display: flex;
+    margin-left: 260px;
+}
+.divp2{
+    display: flex;
+    margin-left: 260px;
+    position: absolute;
+    bottom: 180px;
+}
+.divp3{
+    display: flex;
+    margin-left: 260px;
+    position: absolute;
+    bottom: 150px;
+}
+.divp4{
+    display: flex;
+    margin-left: 260px;
+    position: absolute;
+    bottom: 120px;
+}
+.divp5{
+    display: flex;
+    margin-left: 260px;
+    position: absolute;
+    bottom: 90px;
+}
+.imgvard{
+    position: absolute;
+    bottom: -20px;
+    left: 320px;
+}
+.divgic1{
+    margin-left: 30px;
+    border-radius: 20px;
+    animation: maso 3s infinite;
+}
+.divgic2{
+    border-radius: 20px;
+    animation: mas 3s infinite;
+}
+@keyframes mas{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 100%;
+    }
+}
+@keyframes maso{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 400px;
+    }
+}
+.divgic3{
+    position: absolute;
+    left: 800px;
+    bottom: -67px;
+    border-radius: 20px;
+    animation: lianna 3s infinite;
+}
+.divgic4{
+    border-radius: 20px;
+    animation: marzpet 3s infinite;
+}
+@keyframes marzpet{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 50%;
+    }
+}
+@keyframes lianna{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 400px;
+    }
+}
+.divgic5{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    animation: kar 3s infinite;
+}
+.divgic6{
+    border-radius: 20px;
+    animation: karen 3s infinite;
+}
+@keyframes kar{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 400px;
+    }
+}
+@keyframes karen{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 70%;
+    }
+}
+.divgic7{
+    border-radius: 20px;
+    margin-left: 490px;
+    position: absolute;
+    top: 995px;
+    animation: sat 3s infinite;
+}
+.divgic8{
+    border-radius: 20px;
+    animation: saten 3s infinite;
+}
+@keyframes sat{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 400px;
+    }
+}
+@keyframes saten{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 40%;
+    }
+}
+.divgic9{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    animation: elen 3s infinite;
+}
+.divgic10{
+    border-radius: 20px;
+animation: el 3s infinite;
+}
+@keyframes elen{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 400px;
+    }
+}
+@keyframes el{
+    0%{
+width: 0%;
+    }
+    100%{
+width: 40%;
+    }
+}
+.div1{
+    margin-top: 30px;
+    display: flex;
+}
+.pinterats{
+    margin-left: 30px;
+}
+.divmas{
+    margin-left: 40px;
+}
+.divmas:hover{
+    background-color: white;
+}
+.pdev{
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+}
+.pcoffe{
+    position: absolute;
+    top: 1100px;
+    left: 650px;
+}
+.pface{
+    position: absolute;
+    top: 1100px;
+    left: 880px;
+}
+.ptwiter{
+    position: absolute;
+    top: 1100px;
+    left: 1130px;
+}
+.pinsta{
+    position: absolute;
+    top: 1190px;
+    left: 400px;
+}
+.psnap{
+    position: absolute;
+    top: 1190px;
+    left: 650px;
+}
+.pinstagram{
+    position: absolute;
+    top: 1190px;
+    left: 880px;
+}
+.ptiktok{
+    position: absolute;
+    top: 1190px;
+    left: 1130px;
+}
+.pgoogle{
+    position: absolute;
+    top: 1280px;
+    left: 400px;
+}
+.pyou{
+    position: absolute;
+    top: 1280px;
+    left: 650px;
+}
+.pmuz{
+    position: absolute;
+    top: 1280px;
+    left: 880px;
+}
+.podno{
+    position: absolute;
+    top: 1280px;
+    left: 1130px;
+}.sectioncon{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.divcontactt{
+    display: inline-block;
+    margin-left: 2px;
+}
+.contactclas{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.contactme{
+    margin-left: 10px;
+}
+.imgadres{
+    margin-top: 5px;
+}
+.h4my{
+    margin-top: -32px;
+    margin-left: 33px;
+}
+.h6street{
+    margin-left: 30px;
+    margin-top: -14px;
+}
+.divadres{
+    margin-left: 10px;
+}
+.divsocial{
+    margin-left: 485px;
+    margin-top: -68px
+}
+.h4social{
+    margin-top: -40px;
+    margin-left: 51px
+}
+.imgtike{
+    top: 1665px;
+    left: 940px;
+}
+.divnkarner{
+   display: inline-block;
+   margin-top: -13px;
+   margin-left: 40px;
+   filter: grayscale(1);
+}
+.divnkarner:hover{
+    transition: 1s;
+    transform: scale(1);
+    filter: grayscale(0);
+}
+.divemail{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.h4email{
+    margin-top: -34px;
+    margin-left: 35px;
+}
+.h5contact{
+    margin-left: 34px;
+    margin-top: -15px;
+}
+.divcall{
+    margin-left: 495px;
+    margin-top: -59px
+}
+.imgimg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.h4callme{
+    margin-left: 52px;
+    margin-top: -45px;
+}
+.h5hamar{
+    margin-left: 52px;
+    margin-top: -10px;
+}
+.divmarat{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.divani{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: none; 
+}
+.divlaura{
+    border: none;
+}
+.divyura{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+}
+.divmark{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+}
+.divmels{
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+margin-left: 450px;
+}
